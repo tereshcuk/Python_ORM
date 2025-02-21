@@ -7,7 +7,7 @@ from models import create_tables, Publisher, Shop, Book, Stock, Sale
 
 
 
-DSN = "postgresql://postgres:hua21WEI12_76@localhost:5432/publisher_bd"
+DSN = "postgresql://postgres:postgres@localhost:5432/publisher_bd"
 engine = sqlalchemy.create_engine(DSN)
 
 create_tables(engine)
